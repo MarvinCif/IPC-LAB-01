@@ -1,5 +1,5 @@
 #TS Introducción a programación - Sección:17
-#05/09/2023
+#07/09/2023
 #Marvin Estuardo Cifuentes Majía
 #Objetivo:Crear un programa pida al usuario su información.
 #Entrada: sNombre, sEdad, sCarrera, sCarne
