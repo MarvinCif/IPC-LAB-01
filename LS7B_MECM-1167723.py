@@ -5,7 +5,8 @@
 #Entrada: Numero1, Numero2.
 """ PROCESO
 1. Solicitar al usuario dos numeros enteros y realizar los cálculos (Suma, resta, multiplicacion y division)
-2. Mostrar los resultados.
+2. Mostrar menu de opciones.
+3. Pedir al usuario una de las opciones.
 """
 """ SALIDA
 3. Resultado de suma
@@ -14,7 +15,7 @@
 6. Resultado de division
 7. Volver a realizar otra operación
 """
-print ("Ejercicio 1: Operaciones aritmeticas")
+print ("Ejercicio 2: Operaciones aritmeticas")
 Numero1=int(input("Ingrese un numero: "))
 Numero2=int(input("Ingrese un numero: "))
 while True:
