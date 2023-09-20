@@ -2,7 +2,7 @@
 #19/09/2023
 #Marvin Estuardo Cifuentes Majía
 #Objetivo:Crear un programa que realice operaciones aritméticas.
-#Entrada: Numero1, Numero2.
+#Entrada: Numero1, Numero2, Numero3.
 """ PROCESO
 1. Solicitar al usuario tres numeros.
 2. Desplagar un menu de opciones para el usuario.
