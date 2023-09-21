@@ -16,7 +16,7 @@
 import os
 while True:
     os.system('cls')
-    print("ACTIVIDAD NO.5\nTABLA DE MULTIPLICAR\n")
+    print("MARVIN ESTUARDO CIFUENTES MEJIA\nACTIVIDAD NO.5\nTABLA DE MULTIPLICAR\n")
     try:
         Numero1=int(input("Ingrese un numero del 1 al 10: "))
         if Numero1>=1 and Numero1<=10:
