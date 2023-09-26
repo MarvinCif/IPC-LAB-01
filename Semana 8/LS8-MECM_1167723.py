@@ -21,25 +21,28 @@ import math
 import os
 while True:
     os.system('cls')
-    print ("LS 8 - FACTORIAL Y SECUENCIA DE FIBONACCI")
+    print ("LS 8 - FACTORIAL Y SECUENCIA DE FIBONACCI\n")
     print("1- Factorial\n2- Secuencia de Fibonacci\n3- Salir")
     Numero1=int(input("Seleccione una opción: "))
     try:
         if (Numero1 == 1):
             os.system('cls')
             print("OPCION FACTORIAL")
-            Numero2=int(input("Ingrese un numero: "))
-            contador = 1
-            while contador <= Numero2:
-                print(f"{contador}",end='')
-                contador = contador + 1
-                if (contador<=Numero2):
-                   print(" X ", end='')
+            try:
+                Numero2=int(input("Ingrese un numero: "))
+                contador = 1
+                while contador <= Numero2:
+                    print(f"{contador}",end='')
+                    contador = contador + 1
+                    if (contador<=Numero2):
+                        print(" X ", end='')
+                    else:
+                        print(" = ", math.factorial(Numero2), "\n\n")
+                        os.system('PAUSE')
                 else:
-                    print(" = ", math.factorial(Numero2), "\n\n")
-                    os.system('PAUSE')
-            else:
-                print(math.factorial(Numero2))
+                    print(math.factorial(Numero2))
+            except ValueError:
+                print("El valor ingresado no es un numero")
         elif(Numero1 == 2):
             os.system('cls')
             def fibonacci(n):
@@ -49,8 +52,11 @@ while True:
                     fibseq.append(a)
                     a, b = b, a + b
                 print(fibseq) 
-            n = int(input("Ingrese un numero para la secuencia de Fibonacci: "))
-            secuencia = fibonacci(n)
+            try:
+                n = int(input("Ingrese un numero para la secuencia de Fibonacci: "))
+                secuencia = fibonacci(n)
+            except ValueError:
+                print("El valor ingresado no es un numero")
             print("\n\n")
             os.system('PAUSE')
         elif(Numero1 ==3):
@@ -59,5 +65,3 @@ while True:
             print("El numero ingresado no se encuentra dentro del rango.")
     except ValueError:
         print("El valor ingresado no es un numero.")
-        
-        
