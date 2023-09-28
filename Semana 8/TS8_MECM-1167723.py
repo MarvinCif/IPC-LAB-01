@@ -1,3 +1,26 @@
+#TS Introduccion a programacion - Sección:17
+#28/09/2023
+#Marvin Estuardo Cifuentes Majía
+#Objetivo:Crear un programa que realice secuencias numericas.
+#Entrada: Numero, Numeros, Resultado, i, opcion.
+""" PROCESO
+1. Realizar un bucle for que muestre una secuencia numérica de 1 a 25 con incremento en 1.
+2. Realizar un bucle while que muestre una secuencia numérica de 1 a 25 con incremento en 1.
+3. Realizar un bucle for que muestre una secuencia numérica de 1 a 50 con incremento en 5.
+4. Realizar un bucle while que muestre una secuencia numérica de 1 a 50 con incremento en 5.
+5. Realizar un bucle for que muestre una secuencia numérica de 20 a 0 con decremento en 2.
+6. Realizar un bucle for que muestre una secuencia numérica de 20 a 0 con decremento en 2.
+"""
+""" SALIDA
+7. Pantalla de opciones TKinter
+    Resultado de la secuencia numerica 1 a 25 con for.
+    Resultado de la secuencia numerica 1 a 25 con while.
+    Resultado de la secuencia numerica 1 a 50 con for.
+    Resultado de la secuencia numerica 1 a 50 con while.
+    Resultado de la secuencia numerica 20 a 0 con for.
+    Resultado de la secuencia numerica 20 a 0 con while.
+"""
+
 import tkinter as tk
 from tkinter import *
 
