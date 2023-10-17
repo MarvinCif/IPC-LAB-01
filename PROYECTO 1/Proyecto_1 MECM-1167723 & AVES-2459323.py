@@ -170,7 +170,7 @@ def Comparacion():
                         print("\nPor favor, ingrese números de línea válidos (1-4).")
                         if not Teclas():
                             return
-                        continue
+                        return
                     ComparacionLinea.append(NumeroLinea)
 
             mensaje = ("\nComparación de Datos:")
@@ -191,8 +191,7 @@ def Comparacion():
                     mensaje += f"\n\nNo se han calculado datos para la Línea {NumeroLinea}."
 
             print(mensaje)
-            if not Teclas():
-                return
+            MayorProduccion(ComparacionLinea)
         except ValueError:
             print("\nDebe ingresar un valor válido.")
             if not Teclas():
@@ -211,12 +210,11 @@ def MayorProduccion(ComparacionLinea):
                     MayorEficiencia = Eficiencia
                     LineaMayorEficiencia = NumeroLinea
 
-    os.system('cls')
-
     if LineaMayorEficiencia is not None:
-        print(f"La línea con mayor eficiencia es la Línea {LineaMayorEficiencia} con un total de {MayorEficiencia:.0f}.00")
+        print(f"\n\nLa línea con mayor eficiencia es la Línea {LineaMayorEficiencia} con un total de {MayorEficiencia:.0f}.00")
+        Teclas()
     else:
-        print("No se han calculado datos para las líneas comparadas.")
+        print("\n\nNo se han calculado datos para las líneas comparadas.")
         if not Teclas():
             return
 
