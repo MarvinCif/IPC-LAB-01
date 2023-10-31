@@ -1,3 +1,9 @@
+#Introducción a programación - Sección:17
+#31/10/2023
+#Marvin Estuardo Cifuentes Majía
+#Objetivo:Crear un programa que guarde los datos de usuario.
+#Entrada: nombre, apellido, apellidocasada, dia, mes, año.
+
 import os
 import datetime
 
